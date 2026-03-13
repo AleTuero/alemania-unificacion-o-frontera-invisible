@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Alemania: ¿Unificación o Frontera Invisible?
 
 Análisis socioeconómico y electoral de Alemania (1991–2024)
@@ -301,7 +300,3 @@ Herramientas utilizadas:
 - SQL
 
 - Power BI
-=======
-# alemania-unificacion-o-frontera-invisible
-Análisis de datos, SQL, Machine Learning y visualización en Power BI sobre si hay una frontera invisible o unificación en Alemania después de la caída del muro (1991-2024)
->>>>>>> 1e632bd917ebef2c42d3070849b92afc12d20a8b
