@@ -32,13 +32,13 @@ El objetivo es estudiar si las diferencias históricas entre las antiguas Aleman
 Es recomendable usar un entorno aislado para evitar conflictos de dependencias.
 
 Bash
-# Crear el entorno virtual
+Crear el entorno virtual
 python -m venv venv
 
-# Activar el entorno
-# En Windows:
+Activar el entorno
+En Windows:
 venv\Scripts\activate
-# En Mac/Linux:
+En Mac/Linux:
 source venv/bin/activate
 
 2. Instalar Dependencias
