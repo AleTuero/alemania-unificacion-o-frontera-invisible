@@ -1,0 +1,41 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.venv/
+env/
+venv/
+.env
+
+# --- Datos y Archivos Pesados ---
+# Se recomienda no subir archivos .csv si son muy grandes, 
+# pero si tu proyecto los necesita para que el profesor lo ejecute, 
+# puedes comentar la siguiente línea con un #
+*.csv
+
+# --- Archivos temporales de Office (Muy importante) ---
+# Evita que se suban los archivos "fantasma" que crea Word/Excel ($~...)
+~$*
+*.tmp
+
+# Excluir carpeta de imagenes local y su contenido .png
+imagenes tabla/
+*.png
+
+# Documentos de presentación y entregables finales
+Guion presentacion.docx
+PDR_Alejandro de Tuero_proyecto final.docx
+PDR_Alejandro de Tuero_proyecto final.pdf
+
+# --- Sistema Operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- VS Code ---
+.vscode/

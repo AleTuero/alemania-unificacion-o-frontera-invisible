@@ -1,0 +1,15 @@
+# ==========================================
+# REQUIREMENTS.TXT - Proyecto Alemania ¿Unificación o frontera invisible?
+# Generado para Python >=3.12
+# Contiene todas las librerías necesarias con versiones exactas
+# ==========================================
+
+pandas==2.3.3        # Manipulación de datos y cleaning
+numpy==2.3.4         # Operaciones numéricas y arrays
+matplotlib==3.10.7   # Visualización básica
+seaborn==0.13.2      # Visualización avanzada y plots estadísticos
+scikit-learn==1.8.0  # Machine Learning: clustering, RF, regresión
+shap==0.50.0         # Interpretabilidad y explicación de modelos
+
+# Para instalar todo: pip install -r requirements.txt
+# Para actualizar paquetes de manera controlada, mantén las versiones exactas

@@ -26,6 +26,35 @@ El objetivo es estudiar si las diferencias históricas entre las antiguas Aleman
 
 - El comportamiento electoral
 
+🚀 Quick Setup (Configuración Rápida)
+
+1. Preparar el Entorno Virtual (venv)
+Es recomendable usar un entorno aislado para evitar conflictos de dependencias.
+
+Bash
+# Crear el entorno virtual
+python -m venv venv
+
+# Activar el entorno
+# En Windows:
+venv\Scripts\activate
+# En Mac/Linux:
+source venv/bin/activate
+
+2. Instalar Dependencias
+Una vez activado el entorno, instala todas las librerías necesarias (Pandas, Scikit-Learn, SHAP, etc.):
+
+Bash
+pip install --upgrade pip # Asegura la última versiondel instalador
+pip install -r requirements.txt
+
+3. Configuración de la Base de Datos (SQL)
+Para recrear el modelo de datos y la tabla maestra (Fact_Alemania_Master):
+
+Los scripts de definición están en la carpeta /sql.
+
+Puedes ejecutar el archivo .sql en tu gestor de base de datos preferido (SQLite/PostgreSQL) para integrar las tablas de PIB, Paro y Natalidad.
+
 🎯 Hipótesis de investigación
 1️⃣ Hipótesis principal
 
@@ -90,25 +119,18 @@ Nivel geográfico:
 
 Estados federales alemanes (Bundesländer)
 
-🗂 Estructura del proyecto
-Alemania_Unificacion_Analisis/
+📂 Estructura del proyecto
 
-data/
-Dataset_Final_ML_Alemania.csv
-
-notebooks/
-analisis_ml.ipynb
-
-sql/
-datawarehouse.sql
-
-dashboard/
-dashboard_powerbi.pbix
-
-images/
-dashboard_powerbi.png
-
-README.md
+- `data/`
+  - `raw/`: Datasets originales (estáticos e inalterables).
+  - `processed/`: Datasets limpios, transformados a formato largo y el Master para ML.
+- `notebooks/`: Scripts de limpieza, EDA, creación de variables Lag y modelos de ML.
+- `sql/`: Scripts de creación de tablas y consultas (SQL).
+- `dashboard/`: Archivo de Power BI (.PBIX)
+- `docs/`: Documentación y guion de la presentación.
+- `requirements.txt`: Librerías necesarias para ejecutar el proyecto.
+- `.gitignore`: Archivos excluidos del repositorio.
+- `README.md`: Documentación principal.
 
 🧹 Limpieza de datos
 
